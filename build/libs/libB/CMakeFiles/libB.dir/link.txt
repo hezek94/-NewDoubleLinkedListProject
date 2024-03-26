@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,liblibB.so -o liblibB.so CMakeFiles/libB.dir/data_structure_lib.cpp.o 

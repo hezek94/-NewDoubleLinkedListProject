@@ -1,0 +1,6 @@
+project(cmake_tutorial)
+set(VAR app2)
+set(SOURCES app2.cpp)
+add_executable(${VAR} ${SOURCES})
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+target_link_libraries(${VAR} ${OpenCV_LIBS} libA libB gtest_main gtest)

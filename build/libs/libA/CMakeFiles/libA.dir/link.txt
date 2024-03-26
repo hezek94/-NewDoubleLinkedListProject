@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,liblibA.so -o liblibA.so CMakeFiles/libA.dir/math_lib.cpp.o  -Wl,-rpath,/home/femi/project2-master/build/libs/libB ../libB/liblibB.so 

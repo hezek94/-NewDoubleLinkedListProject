@@ -1,0 +1,7 @@
+project(cmake_tutorial)
+set(VAR app1)
+set(SOURCES app1.cpp)
+find_package(GTest REQUIRED)
+include_directories(${GTEST_INCLUDE_DIRS})
+add_executable(${VAR} ${SOURCES})
+target_link_libraries(${VAR} libA libB gtest_main gtest)

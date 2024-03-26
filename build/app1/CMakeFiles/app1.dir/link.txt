@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/app1.dir/app1.cpp.o -o ../bin/app1  -Wl,-rpath,/home/femi/project2-master/build/libs/libA:/home/femi/project2-master/build/libs/libB ../libs/libA/liblibA.so ../libs/libB/liblibB.so -lgtest_main -lgtest 
